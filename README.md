@@ -55,51 +55,51 @@ The tables below summarise notable projects and papers from 2024–2026, organi
 
 | Project/Agent | Year | Key contributions | Sources |
 |---|---|---|---|
-| **RadFabric** | 2025 | A multi‑agent, multimodal reasoning framework for chest‑x‑ray interpretation. Specialised agents detect pathologies, map findings to anatomical structures and synthesise visual, anatomical and clinical data. RadFabric achieves **near‑perfect detection of challenging pathologies** (accuracy 1.000) and an **overall diagnostic accuracy of 0.799** compared with 0.229–0.527 for traditional systems, demonstrating modularity and interoperability. | [^3] |
-| **Diagnostic co‑pilot (AMIE)** | 2024–2025 | In a *Nature* study on differential diagnosis, the **Articulate Medical Intelligence Explorer (AMIE)** achieved a **top‑10 diagnostic accuracy of 59.1 %**, outperforming unassisted clinicians (33.6 %) and improving clinicians’ performance when used as an assistant (51.7 % vs 36.1 %). | [^4] |
+| **RadFabric** | 2025 | A multi‑agent, multimodal reasoning framework for chest‑x‑ray interpretation. Specialised agents detect pathologies, map findings to anatomical structures and synthesise visual, anatomical and clinical data. RadFabric achieves **near‑perfect detection of challenging pathologies** (accuracy 1.000) and an **overall diagnostic accuracy of 0.799** compared with 0.229–0.527 for traditional systems, demonstrating modularity and interoperability. | [Paper](https://arxiv.org/abs/2506.14142) [Project](https://yidong11.github.io/Towards-Multi-Modal-Agentic-AI-System-for-Chest-X-Ray/) |
+| **Diagnostic co‑pilot (AMIE)** | 2024–2025 | In a *Nature* study on differential diagnosis, the **Articulate Medical Intelligence Explorer (AMIE)** achieved a **top‑10 diagnostic accuracy of 59.1 %**, outperforming unassisted clinicians (33.6 %) and improving clinicians’ performance when used as an assistant (51.7 % vs 36.1 %). | [Paper](https://www.nature.com/articles/s41586-025-08866-7) |
 
 ### Disease‑management & workflow agents
 
 | Project/Agent | Year | Key contributions | Sources |
 |---|---|---|---|
-| **AMIE for disease management** | 2025 | An extension of AMIE beyond diagnosis to **longitudinal disease management**. A two‑agent architecture pairs a **Dialogue Agent** with a **Management Reasoning Agent** that plans investigations and treatments using clinical guidelines. In randomised simulations with 100 multi‑visit scenarios, specialists rated AMIE’s management plans non‑inferior to those of primary‑care physicians and observed significant improvements in treatment precision. | [^5] |
+| **AMIE for disease management** | 2025 | An extension of AMIE beyond diagnosis to **longitudinal disease management**. A two‑agent architecture pairs a **Dialogue Agent** with a **Management Reasoning Agent** that plans investigations and treatments using clinical guidelines. In randomised simulations with 100 multi‑visit scenarios, specialists rated AMIE’s management plans non‑inferior to those of primary‑care physicians and observed significant improvements in treatment precision. | [Blog](https://research.google/blog/from-diagnosis-to-treatment-advancing-amie-for-longitudinal-disease-management/) |
 
 ### Patient‑facing voice agents
 
 | Project/Agent | Year | Key contributions | Sources |
 |---|---|---|---|
-| **Hippocratic AI voice agents (UHS deployment)** | 2025 | Universal Health Services partnered with Hippocratic AI to deploy **generative AI voice agents** for post‑discharge phone calls. These agents follow up with patients, review medication instructions and probe for new symptoms. Thousands of patients have been contacted since launch, and the average patient satisfaction rating is **9.0 out of 10**, leading to expansion across additional hospitals. | [^6] |
+| **Hippocratic AI voice agents (UHS deployment)** | 2025 | Universal Health Services partnered with Hippocratic AI to deploy **generative AI voice agents** for post‑discharge phone calls. These agents follow up with patients, review medication instructions and probe for new symptoms. Thousands of patients have been contacted since launch, and the average patient satisfaction rating is **9.0 out of 10**, leading to expansion across additional hospitals. | [Press release](https://uhs.com/news/universal-health-services-launches-hippocratic-ais-generative-ai-healthcare-agents-to-assist-with-post-discharge-patient-engagement/) |
 
 ### Mental‑health & CBT agents
 
 | Project/Agent | Year | Key contributions | Sources |
 |---|---|---|---|
-| **AutoCBT** | 2025 | An autonomous multi‑agent framework for cognitive behavioural therapy (CBT). The system introduces **dynamic routing and supervisory mechanisms** inspired by real counselling to produce high‑quality responses. Experiments on bilingual datasets show that AutoCBT provides more helpful and contextually appropriate counselling responses than prior LLM‑based CBT systems. | [^7] |
+| **AutoCBT** | 2025 | An autonomous multi‑agent framework for cognitive behavioural therapy (CBT). The system introduces **dynamic routing and supervisory mechanisms** inspired by real counselling to produce high‑quality responses. Experiments on bilingual datasets show that AutoCBT provides more helpful and contextually appropriate counselling responses than prior LLM‑based CBT systems. | [Paper](https://arxiv.org/abs/2501.09426) [GitHub](https://github.com/CAS-SIAT-XinHai/AutoCBT) |
 
 ### Personal‑health & navigation agents
 
 | Project/Agent | Year | Key contributions | Sources |
 |---|---|---|---|
-| **Personal Health Agent (PHA)** | 2025 | A research prototype that analyses wearable data, questionnaires and blood biomarkers to deliver personalised health insights. The PHA decomposes tasks into a **data‑science agent**, a **domain‑expert agent** and a **health‑coach agent** that reason collaboratively. Evaluations with a real dataset (~1,200 users and >7,000 expert annotations) show improved analysis‑plan quality and more personalised responses compared with baseline models. | [^8] |
-| **Wayfinding AI** | 2025 | An early‑stage agent that helps users navigate online health information. Wayfinding AI proactively asks clarifying questions to understand the user’s goals and provides deferred answers. Randomised user studies with 130 participants show that users prefer the agent over baseline models across dimensions such as helpfulness, relevance, goal understanding and engagement. | [^9] |
+| **Personal Health Agent (PHA)** | 2025 | A research prototype that analyses wearable data, questionnaires and blood biomarkers to deliver personalised health insights. The PHA decomposes tasks into a **data‑science agent**, a **domain‑expert agent** and a **health‑coach agent** that reason collaboratively. Evaluations with a real dataset (~1,200 users and >7,000 expert annotations) show improved analysis‑plan quality and more personalised responses compared with baseline models. | [Paper](https://arxiv.org/abs/2508.20148) [Blog](https://research.google/blog/the-anatomy-of-a-personal-health-agent/) |
+| **Wayfinding AI** | 2025 | An early‑stage agent that helps users navigate online health information. Wayfinding AI proactively asks clarifying questions to understand the user’s goals and provides deferred answers. Randomised user studies with 130 participants show that users prefer the agent over baseline models across dimensions such as helpfulness, relevance, goal understanding and engagement. | [Blog](https://research.google/blog/towards-better-health-conversations-research-insights-on-a-wayfinding-ai-agent-based-on-gemini/) |
 
 ### Inclusive & accessibility agents
 
 | Project/Agent | Year | Key contributions | Sources |
 |---|---|---|---|
-| **Agentic AI for disabilities and neurodivergence** | 2025 | A framework that assists individuals with disabilities and neurodivergence through four integrated agents: a **meal‑planner**, **reminder**, **food‑guidance** and **monitoring** agent. These agents are coordinated via a hybrid reasoning engine to provide adaptive nutrition guidance, scheduling and real‑time monitoring. Evaluations on synthetic data demonstrate improved nutritional adherence, higher reminder responsiveness, increased user satisfaction and fewer caregiver interventions. | [^10] |
+| **Agentic AI for disabilities and neurodivergence** | 2025 | A framework that assists individuals with disabilities and neurodivergence through four integrated agents: a **meal‑planner**, **reminder**, **food‑guidance** and **monitoring** agent. These agents are coordinated via a hybrid reasoning engine to provide adaptive nutrition guidance, scheduling and real‑time monitoring. Evaluations on synthetic data demonstrate improved nutritional adherence, higher reminder responsiveness, increased user satisfaction and fewer caregiver interventions. | [Paper](https://arxiv.org/abs/2511.22737) |
 
 ### Training & benchmark environments
 
 | Project/Agent | Year | Key contributions | Sources |
 |---|---|---|---|
-| **MedAgentGym** | 2025 | A **scalable interactive training environment** for code‑centric biomedical reasoning. It includes **72,413 task instances across 129 categories** derived from 12 biomedical scenarios and provides interactive feedback, verifiable ground truth and a benchmark for 29 LLMs. Training with MedAgentGym improves model performance and offers a cost‑effective alternative to proprietary models like GPT‑4o. | [^11] |
+| **MedAgentGym** | 2025 | A **scalable interactive training environment** for code‑centric biomedical reasoning. It includes **72,413 task instances across 129 categories** derived from 12 biomedical scenarios and provides interactive feedback, verifiable ground truth and a benchmark for 29 LLMs. Training with MedAgentGym improves model performance and offers a cost‑effective alternative to proprietary models like GPT‑4o. | [Paper](https://openreview.net/pdf?id=oZSofhtmIc#page=0.42) [GitHub](https://github.com/wshi83/MedAgentGym) |
 
 ### Future & ongoing research
 
 | Study/Initiative | Year | Description | Sources |
 |---|---|---|---|
-| **Nationwide randomised study of AI in virtual care** | 2026 | Google Research and Included Health announced a **nationwide randomised controlled trial** to evaluate conversational AI in real‑world virtual care. The study will assess AI‑driven clinical reasoning, personalised health insights and navigation support at scale, building on earlier work with AMIE, PHA and Wayfinding AI. | [^12] |
+| **Nationwide randomised study of AI in virtual care** | 2026 | Google Research and Included Health announced a **nationwide randomised controlled trial** to evaluate conversational AI in real‑world virtual care. The study will assess AI‑driven clinical reasoning, personalised health insights and navigation support at scale, building on earlier work with AMIE, PHA and Wayfinding AI. | [Announcement](https://research.google/blog/collaborating-on-a-nationwide-randomized-study-of-ai-in-real-world-virtual-care/) |
 
 ## Contributing
 
