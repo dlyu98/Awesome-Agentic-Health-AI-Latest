@@ -24,16 +24,32 @@ The diagram below provides a high‑level view of the agentic health AI ecosyst
 
 *The “Agentic AI statistics” graphic compares the number of healthcare‑specific agentic AI papers with the total number of agentic AI papers from 2023‑2025 (top line chart) and summarises research categories such as new tasks, reasoning, data loaders, instruction following, observation, retrieval‑augmented generation (RAG), tool use, graph planning, memory and model context protocol (MCP) across 2024 and 2025 (bar charts).* 
 
+## Latest Papers
+
+### Year 2026
+
+1. [ICLR 2026] **MedAgentGym: Training LLM Agents for Code‑Based Medical Reasoning at Scale** [[paper]](https://openreview.net/pdf?id=oZSofhtmIc#page=0.42) [[GitHub]](https://github.com/wshi83/MedAgentGym?tab=readme-ov-file)
+1. [AAAI 2026] **LungNoduleAgent: A Collaborative Multi‑Agent System for Precision Diagnosis of Lung Nodules** [[paper]](https://arxiv.org/abs/2511.21042) [[GitHub]](https://github.com/ImYangC7/LungNoduleAgent)
+
+### Year 2025
+
+1. [arXiv 2025.12] **Hybrid‑Code: A Privacy‑Preserving, Redundant Multi‑Agent Framework for Reliable Local Clinical Coding** [[paper]](https://arxiv.org/abs/2512.23743)
+1. [arXiv 2025.12] **ClinDEF: A Dynamic Evaluation Framework for Large Language Models in Clinical Reasoning** [[paper]](https://arxiv.org/abs/2512.23440)
+1. [arXiv 2025.12] **HARMON‑E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data** [[paper]](https://arxiv.org/abs/2512.19864)
+
+
 ## Latest projects and breakthroughs (2025–2026)
 
 The tables below summarise notable projects and papers from 2024–2026, organised by category. Each entry lists the project or system, the year, a succinct description and the sources.
 
 ### Multi‑modal clinical agents
 
-| Project/Agent | Year | Key contributions | Sources |
-|---|---|---|---|
-| **M³Builder** | 2025 | Four specialised agents automate machine‑learning workflows for medical imaging—from data processing and environment configuration to auto‑debugging and model training. The system introduces the **M3Bench** benchmark covering 14 datasets across five anatomies and three modalities and achieves a **94.29 % task‑completion success rate** using Claude‑3.7‑Sonnet, outperforming prior ML‑agent designs. | [^1] |
-| **AURA** | 2025 | A **multi‑modal medical agent** for understanding, reasoning and annotation. AURA provides dynamic interactions and contextual explanations via a modular toolbox with a segmentation suite for phase grounding, pathology and anatomy; a counterfactual image‑generation module for hypothesis testing; and evaluation tools to assess diagnostic relevance and visual interpretability. | [^2] |
+| Title | Venue | Date | Paper Link | Project Page |
+| :---------------------------------------------------------------------------------------------------------- | :------ | :------ | :---------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **MedSAM3: Delving into Segment Anything with Medical Concepts** | arXiv | 2025.11 | [Paper](https://arxiv.org/abs/2511.19046) | ![Star](https://img.shields.io/github/stars/Joey-S-Liu/MedSAM3?style=social&label=Star) <br> [GitHub](https://github.com/Joey-S-Liu/MedSAM3) |
+| **AURA: A Multi‑modal Medical Agent for Understanding, Reasoning & Annotation** | MICCAI workshop | 2025.07 | [Paper](http://arxiv.org/abs/2507.16940v1) | ![Star](https://img.shields.io/github/stars/nimafathi/AURA?style=social&label=Star) <br> [GitHub](https://github.com/nimafathi/AURA) |
+| **MedAgent‑Pro: Towards Evidence‑based Multi‑modal Medical Diagnosis via Reasoning Agentic Workflow** | arXiv | 2025.03 | [Paper](https://arxiv.org/abs/2503.18968) | ![Star](https://img.shields.io/github/stars/jinlab-imvr/MedAgent-Pro?style=social&label=Star) <br> [GitHub](https://github.com/jinlab-imvr/MedAgent-Pro) |
+| **M^3Builder: A Multi‑Agent System for Automated Machine Learning in Medical Imaging** | arXiv | 2025.02 | [Paper](https://arxiv.org/abs/2502.20301) | ![Star](https://img.shields.io/github/stars/MAGIC-AI4Med/M3Builder?style=social&label=Star) <br> [GitHub](https://github.com/MAGIC-AI4Med/M3Builder) |
 
 ### Radiology & imaging agents
 
