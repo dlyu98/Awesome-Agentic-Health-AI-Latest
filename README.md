@@ -1,6 +1,6 @@
 # Awesome Agentic Health AI
 
-This repository is a curated and regularly updated collection of the **latest projects, products, papers and breakthroughs** in **agentic artificial‑intelligence (AI) for healthcare**. It draws inspiration from the original [Awesome‑AI‑Agents‑for‑Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) repository, but focuses on the most recent work (through early 2026) and highlights real‑world deployments alongside academic advances. The goal is to provide an accessible starting point for clinicians, researchers and developers exploring how multi‑agent systems and agentic AI can improve patient care, medical workflow and health‑equity.
+This repository is a curated and regularly updated collection of the **latest projects, products, papers and breakthroughs** in **agentic artificial‑intelligence (AI) for healthcare**. It focuses on the most recent work (through early 2026) and highlights real‑world deployments alongside academic advances. The goal is to provide an accessible starting point for clinicians, researchers and developers exploring how multi‑agent systems and agentic AI can improve patient care, medical workflow and health‑equity.
 
 ## What is agentic AI?
 
